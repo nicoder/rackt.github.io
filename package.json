@@ -1,0 +1,35 @@
+{
+  "name": "rackt.github.io",
+  "version": "1.0.0",
+  "description": "The Rackt.org website",
+  "author": "Tim Dorr <timdorr@timdorr.com>",
+  "license": "MIT",
+  "homepage": "https://rackt.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rackt/rackt.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rackt/rackt.github.io/issues"
+  },
+  "keywords": [
+    "rackt",
+    "react",
+    "gatsby",
+    "documentation"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "start": "gatsby serve"
+  },
+  "dependencies": {
+    "react": "^0.13.3",
+    "react-document-title": "^1.0.2",
+    "react-responsive-grid": "^0.2.0",
+    "react-router": "^0.13.3",
+    "typography": "^0.3.6"
+  },
+  "devDependencies": {
+    "gatsby": "^0.6.2"
+  }
+}
