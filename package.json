@@ -20,16 +20,19 @@
   ],
   "main": "app.js",
   "scripts": {
-    "start": "gatsby serve"
+    "start": "gatsby serve -p 8080"
   },
   "dependencies": {
     "react": "^0.13.3",
     "react-document-title": "^1.0.2",
-    "react-responsive-grid": "^0.2.0",
+    "react-responsive-grid": "^0.2.1",
     "react-router": "^0.13.3",
     "typography": "^0.3.6"
   },
   "devDependencies": {
+    "eslint": "^1.9.0",
+    "eslint-config-rackt": "^1.1.1",
+    "eslint-plugin-react": "^3.8.0",
     "gatsby": "^0.6.2"
   }
 }

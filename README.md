@@ -18,5 +18,5 @@ commands:
 npm install
 npm start
 ```
-Then open up [localhost:8000](http://localhost:8000/) in your browser and start
+Then open up [localhost:8080](http://localhost:8080/) in your browser and start
 working. Any changes you make should be reflected in your browser immediately.
